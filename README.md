@@ -8,7 +8,7 @@ Indicate to others when you are currently in a call, for example with [some alap
 
 Turns this
 
-<img src="https://alpaca-calling.com/wp-content/uploads/2020/04/Teams_Screenshot-980x592.png" width="50%">
+[<img src="https://alpaca-calling.com/wp-content/uploads/2020/04/Teams_Screenshot-980x592.png" width="50%">](https://alpaca-calling.com/)
 
 into this
 

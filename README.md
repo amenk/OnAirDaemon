@@ -4,7 +4,7 @@ Switch a [Tasmota](http://tasmota.info/) smart plug whether your webcam is curre
 
 ## Motivation
 
-Indicate to others when you are currently in a call, for example with some alapca :)
+Indicate to others when you are currently in a call, for example with [some alapca](https://alpaca-calling.com/) :)
 
 Turns this
 

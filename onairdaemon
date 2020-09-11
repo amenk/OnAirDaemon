@@ -1,0 +1,27 @@
+#!/bin/bash
+## Installation
+# Change video driver to your webcam driver
+# Change IP of the tasmota plug
+
+VIDEODRIVER=/sys/module/uvcvideo/refcnt
+PLUGIP=196.168.178.69
+
+BEFORE=unkown
+while true; do
+	sleep 0.3
+	ISON=`cat /sys/module/uvcvideo/refcnt`
+
+	if [ "$BEFORE" != "$ISON" ]; then
+
+		if [ "$ISON" == 0 ]; then
+			STATE=Off;
+		else
+			STATE=On;
+		fi
+
+		curl http://192.168.178.69/cm?cmnd=Power%20$STATE 2>/dev/null
+		echo # Linbreak
+	fi
+
+	BEFORE=$ISON
+done

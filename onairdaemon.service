@@ -1,0 +1,9 @@
+[Unit]
+Description=On Air Lamp Daemon
+
+[Service]
+ExecStart=/usr/local/bin/onairdaemon
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 

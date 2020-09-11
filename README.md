@@ -1,6 +1,7 @@
 # OnAirDaemon
 
-Switch a [Tasmota](http://tasmota.info/) smart plug whether your webcam is currently in use or not, for example to indicate to your family members via an on-air-lamp wheter your are in a (video) - call.
+Toggle a [Tasmota](http://tasmota.info/) driven smart plug based on whether your webcam is currently in use or not, for example to indicate to your family members via an on-air-lamp when your are in a (video) - call.
+
 
 ## Motivation
 

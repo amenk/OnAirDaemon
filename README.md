@@ -17,11 +17,12 @@ into this
 
 ## Installation
 
-Call install.sh
+* Edit file `onairdaemon` to use your IP
+* Call `./install.sh`
 
 ## Debugging
 
-journalctl -xef -u onairdaemon.service
+Call `journalctl -xef -u onairdaemon.service`
 
 ## Hardware
 

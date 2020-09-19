@@ -13,7 +13,7 @@ Turns this
 
 into this
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/81wXemtD8mL._AC_SX679_.jpg" width="50%">
+<img src="https://github.com/amenk/OnAirDaemon/raw/master/assets/demo.gif" width="50%">
 
 ## Installation
 

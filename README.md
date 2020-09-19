@@ -26,7 +26,7 @@ journalctl -xef -u onairdaemon.service
 ## Hardware
 
 * [GoSund Plug SP111](https://www.amazon.de/Gosund-Steckdosen-erforderlich-Stromverbrauch-Fernsteurung/dp/B085RFKVW4/)
-* [OnAir Lampe](https://www.amazon.de/gp/product/B07YFRKN2V/r)
+* Cardboard box with a lamp connect to the plug and print out (see assets folder) attached
 
 ## Software
 

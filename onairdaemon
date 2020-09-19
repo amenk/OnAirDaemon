@@ -19,7 +19,7 @@ while true; do
 			STATE=On;
 		fi
 
-		curl http://192.168.178.69/cm?cmnd=Power%20$STATE 2>/dev/null
+		curl http://$PLUGIP/cm?cmnd=Power%20$STATE 2>/dev/null
 		echo # Linbreak
 	fi
 
